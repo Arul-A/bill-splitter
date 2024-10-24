@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background-image: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    text-align: center;
+    color: #6f86d6;
+    font-size: 25px;   
+    text-decoration: underline; 
+}
+
+.container{
+    background-color: white;
+    height: 450px;
+    width: calc(100% - 30%);
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 50%);
+}
+
+.bill-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+}
+.bill-container label{
+    color: #6f86d6;
+    font-weight: 900;
+    font-size: 21px;
+    margin-left: 5px;
+}
+.bill-input{
+    display: flex;
+    align-items: center;
+}
+.bill-input span{
+    position: absolute;
+    color: #6f86d6;
+    font-size: 18px;
+    margin-left: 6px;
+    font-weight: 900;
+
+}
+.bill-input input{
+    padding: 7px 5px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+    border: 3px solid #5166b1;
+    color: #6f86d6;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.tip-container h3{
+    color: #6f86d6;
+    font-size: 24px;
+    font-weight: 900;
+}
+.show-tip{
+    color: #6f86d6;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tipbtns{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    column-gap: 20px;
+    width: 80%;
+
+}
+.tipbtns input{
+    width: 95px;
+    height: 45px;
+    text-align: center;
+    border: 3px solid #6f86d6;
+    outline: none;
+}
+.tipbtns button{
+    width: 105px;
+    height: 55px;
+    background-color: #043f3a;
+    border: 2px solid #6f86d6;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.tipbtns button:hover{
+    background-color: #2a8b83; 
+}
+
+.people-container{
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.people-container label{
+    color: #6f86d6;
+    font-weight: 900;
+    font-size: 21px;
+    margin-left: 5px;
+}
+.people-input{
+    display: flex;
+    align-items: center;
+}
+.people-input span{
+    position: absolute;
+    color: #6f86d6;
+    font-size: 18px;
+    margin-left: 6px;
+    font-weight: 900;
+
+}
+.people-input input{
+    padding: 7px 5px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: end;
+    border: 3px solid #5166b1;
+    color: #6f86d6;
+    border-radius: 10px;
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.right-container{
+    margin: 30px;
+    background-color: #043f3a;
+    width: calc(100% - 65%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tip-amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.total-amount{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-container h3{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.person-word{
+    color: #0b8a7f;
+    margin-top: 0px;
+}
+.amt{
+    font-size: 40px;
+    font-weight: 900;
+    color: #42dbce;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+    padding: 15px;
+    background-color: #42dbce;
+    border: none;
+    color:#0b8a7f;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #0b8a7f;
+    cursor: pointer;
+    color: #42dbce;
+}
+
+
